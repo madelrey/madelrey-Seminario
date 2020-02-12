@@ -48,16 +48,22 @@
 <body>
     <h1 class="main-title">¿Sube el precio del combustible más que el del petróleo?</h1>
     <h4 class="main-autor">Nombre: Miguel A. del Rey Serrano</h3>
-    <h4 class="main-url">Url: <a href="https://mars-sem-07mbig.stackblitz.io">https://mars-sem-07mbig.stackblitz.io</a></h3>
+    <h4 class="main-url">Url: <a href="https://mars-sem-07mbig.stackblitz.io">https://mars-sem-07mbig.stackblitz.io</a>
     <h4 class="main-fuente">Fuentes: 
       <br>
-      <a href="https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana">https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana</a></h4>
-      <h4>
-      <a href="https://datosmacro.expansion.com/materias-primas/brent">https://datosmacro.expansion.com/materias-primas/brent</a></h4>
-      <h4>
+      <a href="https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana">https://datosmacro.expansion.com/energia/precios-gasolina-diesel-calefaccion/espana</a>
+      <br>
+      <br>
+      <a href="https://datosmacro.expansion.com/materias-primas/brent">https://datosmacro.expansion.com/materias-primas/brent</a>
+      <br>
+      <br>
+      <a 
+      href="https://datosmacro.expansion.com/materias-primas/opec">https://datosmacro.expansion.com/materias-primas/opec</a>
+      <br>
+      <br>
       <a href="https://es.investing.com/currencies/usd-eur-historical-data">https://es.investing.com/currencies/usd-eur-historical-data</a></h4>
 
-    <h4 class="main-fecha">Fecha: 15/01/2020</h4>
+    <h4 class="main-fecha">Fecha: 12/02/2020</h4>
     <br>
     <br>
 
@@ -65,18 +71,15 @@
     <div class="summary">
         <h2 class="text-title">Resumen</h2>
         <div class="text">
-El objetivo de este proyecto es mostrar una serie de visualizaciones sobre información efectivas del conjunto de datos Titanic que contiene una muestra de 1309 pasajeros pasajeros con datos como la clase del pasaje, sexo, edad, si sobrevió o no (0: falleció y 1: sobrevivió) entre otros.
-<br>
-<br>
-
-La historia que me gustaría transmitir es que las mujeres y el nivel socioeconómico más alto (1ª y 2ª clase) sobrevivieron con mayor probabilidad al desastre del Titanic que los hombres con pasaje de 3ª clase. Los grupos de mujeres de 1ª y 2ª clase tuvieron una tasa de supervivencia superior al 92%. Esto fue mucho mayor que la tasa de supervivencia promedio de la muestra, que fue del 38%.
+            El <strong>Objetivo</strong> de este trabajo es mostrar una serie de datos históricos, concretamente de los últimos 15 años, referentes a los precios al consumidor de diferentes tipos de productos petrolíferos en España(diesel, gasolina, diesel calefacción), así como los precios del petróleo contabilizados en barriles Brent o impuestos por la OPEP y ver, gracias a la ayuda de varios gráficos, como puede afectar dichos precios, los impuestos especiales a los hidrocarburos (en España) o la cotización de las divisas afectadas, al precio final que tiene que pagar el consumidor. 
+            <br>
+            <br>
+            Con esta historia quiero enviar un <strong>Mensaje</strong> para aclarar la idea generalizada y prácticamente aceptada que existe en España donde se piensa que cuando el precio del barril de petróleo aumenta en los mercados internacionales, el precio del combustible sube más en proporción que cuando dicho precio del barril de petróleo disminuye, donde se llega a afirmar que puede incluso no verse afectado. 
+            <br>
+            <br>
             <div class="metadato  " >
-              La audiencia es el público en general y especialmente los alumnos de la asignatura de Visualización de datos. El objetivo consiste es realizar un ejemplo sobre un pequeño trabajo práctico de visualización de datos aplicacando algunas técnicas y herramientas aprendidas durante la asignatura.
-              
-
+              La <strong>Audiencia</strong> es el público en general que vive en España pero especialmente para aquellos que frecuentemente consumen carburantes y/o dudan del sistema de precios establecido en el sector de los productos petrolíferos.
             </div>
-
-
             </br>
             </br>
             </br>
@@ -86,10 +89,23 @@ La historia que me gustaría transmitir es que las mujeres y el nivel socioecon�
     <!-- add data visualization -->
     <div class="plot">
         <!-- The first bar chart -->
-        <h2 class="plot-title">Hombres y mujeres del pasaje</h2>
+        <h2 class="plot-title">INTRODUCCIÓN</h2>
         <div class="text">
-          Uso el tipo de gráfico circular o de tarta para representar las proporciones entre mujeres/hombres y cada una de las 3 categorias. Este tipo de gráfico es adecuado en este caso para representar proporciones en las que no es importante la precisión. Tambien podría haber utilizado gráficos de barras. <br>
-          Se han utilizado la herramienta tableau online para los gráficos de barras y circulares.
+          Inicialmente para poner en contexto me gustaría explicar como funciona el sistema de precios de hidrocarburos en España. El precio del combustible viene determinado por 4 factores: 
+          <p>
+          1. El precio de la Materia Prima determinado por la cotización del petróleo en los mercados internacionales (Brent, OPEP, WTI). 
+          <p>
+          2. Los Impuestos con los que están gravados estos productos. 
+          <p>
+          3. Los Costes Fijos de Transporte y Distribución. 
+          <p>
+          4. El Margen o Beneficio de los Operadores. 
+          <p>
+          En el siguiente gráfico circular o de tarta representamos las proporciones en la totalidad del precio del combustible en las categorias anteriormente mencionadas. Se ha escogido éste tipo de gráfico porque es de los más adecuados para que el lector se haga una idea rápida de la distribución de los datos sin importar la precisión de los mismos. 
+          <p>
+Se ha utilizado una nueva herramienta Infogram, que me parece muy intuitiva de usar y que ofrece bastantes funcionalidades si bien en su versión gratuita no todas están disponibles. Se trata un programa online enfocado a una audiencia general no experta muy similar bajo mi punto de vista a Datawrapper. En el enlace siguiente se puede observar una pequeña comparación entre ambas herramientas 
+
+https://comparisons.financesonline.com/infogram-vs-datawrapper 
 
         </div>  
 
